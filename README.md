@@ -2,7 +2,7 @@
 Data Scientist's Toolbox - Getting and Cleaning Data - Project
 
 # Files included
-* run_analysis.R : R script to perform to the assingments dataset to produce the tidy data
+* run_analysis.R : R script to perform to the assingment (against the assignment's dataset) to produce the tidy data
 * README.md      : This file
 * CodeBook.md    : Code book with explanation of analysis and variable descriptions
 
