@@ -8,7 +8,7 @@ Data Scientist's Toolbox - Getting and Cleaning Data - Project
 
 # Instructions
 To run the analysis, download the data set (or uncomment the appropriate lines in the run_analysis.R script) into
-your local directory for R Studio.  
+your local directory for R Studio. Load the run_analysis.R file (should show up in the source window).  
 
 Source the code and you'll end up with a variable named finalDataSet (data frame)
 and the viewer should launch allowing you to explore the data frame.  
