@@ -15,3 +15,6 @@ and the viewer should launch allowing you to explore the data frame.
 
 See the code book (CodeBook.md) for explanations
 around the analysis and variable descriptions.
+
+# Details
+The script will load both data sets (training and test) from the local directory for R.  It combines both data sets, updates labels and variable names and then summarizes the data by subject id and activity across all variables from the original data set.  See code book for more detailed methodology.
