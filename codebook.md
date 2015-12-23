@@ -2,14 +2,10 @@
 
 # Data Dictionary
 ##  subjected
-### Field length
-1
-### Description
-Id of the subject for which the observation and measurements were taken
-### Units
-Integer
-### Range
-1-30
+* Field length 1
+* Description: Id of the subject for which the observation and measurements   were taken
+* Units Integer
+* Range 1-30
 ##  activity
 ##  averagetimedomainsignalbodyaccmeanvaluex
 ##  averagetimedomainsignalbodyaccmeanvaluey
