@@ -2,10 +2,8 @@
 ##
 ## Script for project for Data Scientist's Toolbox, Getting and Cleaning Data, creating the tidy data set from
 ## the raw data - assumes you have the dataset extracted to the local directory (for R) based on assignment 
-## instructions.
+## instructions.  Will create a variable called finalDataSet when finished.
 
-## pull down data into local environment
-##
 # fileUrl <-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 # download.file(fileUrl,destfile="./sensorData.zip")
 # unzip("./sensorData.zip")
@@ -76,4 +74,11 @@ colnames(dataSet)[3:68] <- gsub("^", "average", colnames(dataSet)[3:68])
 ## save tidy data
 write.table(dataSet, file=".//dataSet.txt", row.names=FALSE)
 # use if you need to read back into R
-# x<-read.table("c:/R Scripts/dataSet.txt", header=TRUE)
+# dataSet <-read.table("./dataSet.txt", header=TRUE)
+
+## clean up environment
+clean=ls()
+finalDataSet <- dataSet
+rm(list=clean)
+rm(clean)
+View(finalDataSet)
