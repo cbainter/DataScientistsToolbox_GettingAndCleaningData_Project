@@ -12,6 +12,8 @@ Training and test data sets were combined by binding the subject ids and activit
 
 Activity levels were replaced (via a merge) with their corresponding names.
 
+The final data set was comprised of only variables that measured the mean value or the standard deviation by taking the average (mean) value of each variable grouped by subject and activity.
+
 There is only one value measured per field/column for a given subject and activity making this a tidy data set.
 
 # Analysis Details
