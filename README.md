@@ -5,6 +5,7 @@ Data Scientist's Toolbox - Getting and Cleaning Data - Project
 * run_analysis.R : R script to run against the assignment's dataset which produces the tidy data (finalDataSet)
 * README.md      : This file
 * CodeBook.md    : Code book with explanation of analysis and variable descriptions
+* dataSet.txt    : tidy data set for assignment (available as link from project within course as well).
 
 # Instructions
 To run the analysis, download the data set (or uncomment the appropriate lines in the run_analysis.R script) into
