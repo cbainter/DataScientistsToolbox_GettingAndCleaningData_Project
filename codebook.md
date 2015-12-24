@@ -8,6 +8,7 @@
 * Range 1-30
 
 ##  activity
+<<<<<<< HEAD
 * Description: Activity subject performed for measurements taken.
 * Units: Categorical (character)
 * Field Length: 6-17 characters
@@ -36,6 +37,29 @@
 * Units: gravities (numeric)
 * Field Length: 12
 * Range: -0.999999999 - 0.9999999999
+=======
+* Description
+* Units
+* Field Length
+* Range
+
+##  averagetimedomainsignalbodyaccmeanvaluex
+* Description
+* Units
+* Field Length
+* Range
+
+##  averagetimedomainsignalbodyaccmeanvaluey
+* Description
+* Units
+* Field Length
+* Range
+
+##  averagetimedomainsignalbodyaccmeanvaluez* Description
+* Units
+* Field Length
+* Range
+>>>>>>> 1d50e734ff317e18f910c0261ed36ba0f741bd79
 
 ##  averagetimedomainsignalbodyaccstandarddeviationx
 * Description
